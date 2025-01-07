@@ -16,7 +16,7 @@ function luas(length, width) {
   if (typeof length !== 'number' || typeof width !== 'number' || length <= 0 || width <= 0) {
     throw new Error('Invalid input');
   }
-  return length * width;
+  return length * panjang;
 }
 
 // Endpoint untuk menghitung luas persegi panjang
